@@ -153,7 +153,7 @@ queueteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus 
 Players.LocalPlayer.OnTeleport:Connect(function(State)
 
 
-		queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()")
+		queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/pzrpled/OralTracker/main/oral.lua'))()")
 
 end)
 
